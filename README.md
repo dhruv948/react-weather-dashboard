@@ -62,4 +62,4 @@ src/api/OpenWeatherService.js
 
 ## Author
 
-Developed by YOUR_NAME
+Developed by Dhruv
