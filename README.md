@@ -1,59 +1,65 @@
-![Application screenshot](./public/screenshot.png)
+# Weather Forecasting App
 
-<br/>
-<br/>
+A responsive weather forecasting web application built using React.js and Material UI.
 
-With [The Weather Forecasting](https://the-weather-forecasting.netlify.app) user can search locations by city name and observe the weather for the next 5-6 days and 3 hour interval.
-<br />
-The app is developed using React.js and material-UI.
+This application allows users to search for cities worldwide and view:
 
-<br/>
+- Current weather conditions
+- Temperature details
+- Humidity and wind speed
+- 5-day weather forecast
+- Dynamic weather information
 
-## 💻 Live Demo:
+## Features
 
-https://the-weather-forecasting.netlify.app
+- Search weather by city name
+- Real-time weather updates
+- 5-day forecast display
+- Responsive user interface
+- Fast and clean design
+- API integration with OpenWeatherMap
 
-<br/>
+## Tech Stack
 
-## ✨ Getting Started
+- React.js
+- Material UI
+- OpenWeatherMap API
+- RapidAPI GeoDB Cities API
 
-- Make sure you already have `Node.js` and `npm` installed in your system.
-- You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
-- Then, under the `src` directory, go to `api/OpenWeatherService` and replace `WEATHER_API_KEY` with your OpenWeatherMap API Key.
-  - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
+## Installation
 
-<br/>
-
-## ⚡ Install
-
-- Clone the repository:
+Clone the repository:
 
 ```bash
-git clone https://github.com/Amin-Awinti/the-weather-forecasting.git
-
+git clone YOUR_REPOSITORY_URL
 ```
 
-- Install the packages using the command `npm install`
+Move into the project directory:
 
-<br/>
+```bash
+cd the-weather-forecasting
+```
 
-## 📙 Used libraries
+Install dependencies:
 
-- `react-js`
-- `material-ui`
+```bash
+npm install
+```
 
-Check `packages.json` for details
+Start the development server:
 
-<br/>
+```bash
+npm start
+```
 
-## 📄 Todos
+## API Setup
 
-- [ ] Styled-components
-- [ ] Convert the entire project to TypeScript
-- [ ] Unit Testing
-- [ ] On launch, find user location weather by utilizing GeolocationAPI/GEOCODING
-- [ ] Celcius/Fahrenheit conversion
-- [ ] Dark/Light Mode
+Add your API keys inside:
 
-<br/>
-Thank You ☺
+```bash
+src/api/OpenWeatherService.js
+```
+
+## Author
+
+Developed by YOUR_NAME
